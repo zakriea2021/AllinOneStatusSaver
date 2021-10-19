@@ -14,3 +14,5 @@ Instagram Videos and Images Saver Using Share or Copy link
 Facebook Video Saver
 Twitter Video and Image Saver
 Share all Saved Videos and Images
+
+https://github.com/zakriea2021/AllinOneStatusSaver/blob/main/Screenshot/13_preview13.png
