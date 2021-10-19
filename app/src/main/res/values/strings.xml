@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_labl" translatable="false">Malak App Status</string>
+    <string name="app_name" translatable="false">All in One Status Saver</string>
+    <string name="tag_line" translatable="false">Download All Status on One Click</string>
+    <string name="app_malak" translatable="false">in App Malak</string>
+
+    <string name="app_name1" translatable="false">الـكـل فـي مكـان واحد</string>
+    <string name="tag_line1" translatable="false">قـم بتـنزيـل جميـع الحـالات بـنقـرة و احـدة</string>
+    <string name="app_malak1" translatable="false">فــي تـطبيـق مــلاك </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="share_txt">Hey view/download this image</string>
+    <string name="share_image_via">Share File via...</string>
+    <string name="share_app_message">Download All Videos using this app. Download Now</string>
+
+
+
+    <!--AdMob Id-->
+  <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+     <string name="admob_banner_ad" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+     <string name="admob_interstitial_ad" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+      <string name="admob_Rewarded_ad" translatable="false">ca-app-pub-3940256099942544/2346673845</string>
+
+    <!--AdMob Id-->
+  <!--  <string name="admob_app_id" translatable="false">ca-app-pub-2372421524757351~7617868743</string> -->
+  <!--  <string name="admob_banner_ad" translatable="false">ca-app-pub-2372421524757351/6604169977</string> -->
+    <!--   <string name="admob_banner_ad" translatable="false">ca-app-pub-2372421524757351/7597465677</string>
+      <string name="admob_interstitial_ad" translatable="false">ca-app-pub-2372421524757351/6669062235</string>
+      <string name="admob_Rewarded_ad" translatable="false">ca-app-pub-2372421524757351/2346673845</string> -->
+
+
+    <string name="fb_placement_id" translatable="false">IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID</string>
+    <string name="fb_placement_interstitial_id" translatable="false">IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID</string>
+
+
+
+    <string name="about_content">Version: 1.0\nDeveloped by:-\ndudetechnic@gmail.com</string>
+    <string name="aboutInfo">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="insta_app_name">Instagram</string>
+    <string name="insta_tag"><![CDATA[Download Instagram Images & Videos]]></string>
+    <string name="whatsapp_app_name">WA &amp; WA Business</string>
+    <string name="whatsapp_tag"><![CDATA[Save Whatsapp Status Image & Videos]]></string>
+    <string name="tiktok_app_name">TikTok</string>
+    <string name="tiktok_tag">Download TikTok Videos</string>
+    <string name="likee_app_name">Likee</string>
+    <string name="likee_tag">Download Likee Videos</string>
+    <string name="facebook_app_name">Facebook</string>
+    <string name="fcebook_tag">Download Facebook Videos</string>
+    <string name="twitter_app_name">Twitter</string>
+    <string name="twitter_tag"><![CDATA[Download Twitter Images & Videos]]></string>
+    <string name="gallery_name">Gallery</string>
+    <string name="gallery_tag">View All Your Downloaded Media</string>
+    <string name="aboutus_name">About Us</string>
+    <string name="aboutus_tag">Know More About App</string>
+    <string name="share_app_name">Share App</string>
+    <string name="share_app_tag">Share App with Your Friends</string>
+    <string name="rate_app_name">Rate App</string>
+    <string name="rate_tag">Show Some Love. Rate on Play Store</string>
+    <string name="more_app_name">More App</string>
+    <string name="more_app_tag">View Our Other Creations</string>
+
+    <!--About Page-->
+    <string name="version_name">Version</string>
+    <string name="version_tag"> Version 1.0.0</string>
+    <string name="company_name_title">Company</string>
+    <string name="company_tag_name">Technic Dude</string>
+    <string name="email_title">Email</string>
+    <string name="email_tag">dudetechnic@gmail.com</string>
+    <string name="website_title">Website</string>
+    <string name="website_tag">https://www.malak.com/</string>
+    <string name="contact_title">Contact</string>
+    <string name="contact_tag">+91-98989898</string>
+    <string name="privacy_title">Privacy Policy</string>
+    <string name="privacy_tag">Click to Read Privacy Policy</string>
+    <string name="about_title">About</string>
+    <string name="second_how_too">2. Share with All in One Status Saver</string>
+    <string name="fourth_how_too">2. Open All in One Status Saver</string>
+    <string name="prv_policy">Privacy Policy</string>
+    <string name="opn_fb">1. Open Facebook</string>
+    <string name="copy_video_link_frm_fb">1. Copy Video Link from Facebook</string>
+    <string name="enter_url">Enter Url</string>
+    <string name="enter_valid_url">Enter Valid Url</string>
+
+    <string name="do_u_want_to_dlt">Do you want to delete?</string>
+    <string name="file_deleted">File Deleted.</string>
+    <string name="opn_insta">1. Open Instagram</string>
+    <string name="cancel">Cancel</string>
+    <string name="do_u_want_to_download_media_from_pvt">Don\'t Want to Download Media from Private Account?</string>
+    <string name="no_net_conn">No Internet Connection</string>
+    <string name="downloadin_video">Downloading Video...</string>
+    <string name="download_complete">Download Completed</string>
+    <string name="pls_bck_again">Please click BACK again to exit</string>
+    <string name="app_not_available">App Not Available.</string>
+    <string name="error_occurred">Error Occurred</string>
+    <string name="open_tiktok">1. Open TikTok</string>
+    <string name="open_likee">1. Open Likee</string>
+    <string name="copy_video_link_from_likee">1. Copy Video Link from Likee</string>
+    <string name="open_twitter">1. Open Twitter</string>
+    <string name="no_media_on_tweet">No Media on Tweet or Invalid Link</string>
+    <string name="images">Images</string>
+    <string name="videos">Videos</string>
+    <string name="saved_to">Saved to:</string>
+    <string name="whatsapp_not_installed">Whtasapp not installed.</string>
+    <string name="no_app_installed">No application found to open this file.</string>
+
+
+    <string name="change_lang">Change Language</string>
+    <string name="english">English</string>
+    <string name="hindi">हिंदी</string>
+    <string name="change_your_language">Change Your Language</string>
+    <string name="arabic">العربية</string>
+    <string name="how_to_download">How to Download</string>
+    <string name="or_download_using_copied_link">or Download using copied link</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="download_from_private_account">Download from Private Account</string>
+    <string name="paste_link">Paste Link</string>
+    <string name="without_watermark">Without Watermark</string>
+    <string name="with_watermark">With Watermark</string>
+    <string name="download">Download</string>
+    <string name="paste">Paste</string>
+    <string name="no_result_found">No Result Found</string>
+    <string name="downloading">Downloading...</string>
+    <string name="getting_downloading_link">Getting Downloading Link...</string>
+
+
+    <string name="gallery">Gallery</string>
+    <string name="download_started">Download Started</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="view_stories">View Stories and Download from Private Account</string>
+    <string name="login">Login</string>
+    <string name="stories">Stories</string>
+
+</resources>

@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/adView">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/RLTopLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp"
+                    android:background="@drawable/rectangle_blue"
+                    android:visibility="visible">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="120dp">
+
+
+                        <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:background="@drawable/rectangle_white"
+                        android:paddingTop="40dp"
+                        android:paddingBottom="40dp">
+
+                        <ImageView
+                            android:id="@+id/IMIcon"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/icon_tr" />
+
+                        <TextView
+                            android:id="@+id/TVTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/IMIcon"
+                            android:layout_centerHorizontal="true"
+                            android:text="@string/app_name"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="@dimen/home_app_title"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textenter"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/TVTitle"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/tag_line"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="@dimen/home_tag_line"
+                            android:textStyle="bold" />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/textenter"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:text="@string/app_malak"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/home_tag_line"
+                                android:textStyle="bold" />
+                    </RelativeLayout>
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/lnr_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/RLTopLayout"
+                    android:layout_marginTop="-120dp"
+                    android:orientation="vertical"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/RLTopMain"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="@drawable/rectangle_white"
+                        android:elevation="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="3">
+                                <RelativeLayout
+                                    android:id="@+id/rvLikee"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="120dp"
+                                    android:layout_weight="1">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:layout_width="50dp"
+                                            android:layout_height="50dp"
+                                            android:background="@drawable/circle"
+                                            android:padding="12dp"
+                                            android:src="@drawable/likee_logo" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="5dp"
+                                            android:text="@string/likee_app_name"
+                                            android:textColor="@color/colorPrimary"
+                                            android:textSize="@dimen/home_item_txt_size" />
+                                    </LinearLayout>
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:id="@+id/rvInsta"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="120dp"
+                                    android:layout_weight="1">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:layout_width="50dp"
+                                            android:layout_height="50dp"
+                                            android:background="@drawable/circle"
+                                            android:padding="12dp"
+                                            android:src="@drawable/insta_logo" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="@string/insta_app_name"
+                                            android:layout_marginTop="5dp"
+                                            android:textColor="@color/colorPrimary"
+                                            android:textSize="@dimen/home_item_txt_size" />
+                                    </LinearLayout>
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:id="@+id/rvWhatsApp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="120dp"
+                                    android:layout_weight="1">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:layout_width="50dp"
+                                            android:layout_height="50dp"
+                                            android:background="@drawable/circle"
+                                            android:padding="12dp"
+                                            android:src="@drawable/whatsapp_logo" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="@string/whatsapp_app_name"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_gravity="center"
+                                            android:gravity="center"
+                                            android:textColor="@color/colorPrimary"
+                                            android:textSize="@dimen/home_item_txt_size"/>
+                                    </LinearLayout>
+                                </RelativeLayout>
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="3">
+
+                                <RelativeLayout
+                                    android:id="@+id/rvTikTok"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="120dp"
+                                    android:layout_weight="1">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:layout_width="50dp"
+                                            android:layout_height="50dp"
+                                            android:background="@drawable/circle"
+                                            android:padding="12dp"
+                                            android:src="@drawable/tiktok_logo" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="@string/tiktok_app_name"
+                                            android:layout_marginTop="5dp"
+                                            android:textColor="@color/colorPrimary"
+                                            android:textSize="@dimen/home_item_txt_size" />
+                                    </LinearLayout>
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:id="@+id/rvFB"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="120dp"
+                                    android:layout_weight="1">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:layout_width="50dp"
+                                            android:layout_height="50dp"
+                                            android:background="@drawable/circle"
+                                            android:padding="12dp"
+                                            android:src="@drawable/fb" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="@string/facebook_app_name"
+                                            android:layout_marginTop="5dp"
+                                            android:textColor="@color/colorPrimary"
+                                            android:textSize="@dimen/home_item_txt_size"/>
+                                    </LinearLayout>
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:id="@+id/rvTwitter"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="120dp"
+                                    android:layout_weight="1">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="center"
+
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:layout_width="50dp"
+                                            android:layout_height="50dp"
+                                            android:background="@drawable/circle"
+                                            android:padding="12dp"
+                                            android:src="@drawable/ic_twitter" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="@string/twitter_app_name"
+                                            android:layout_marginTop="5dp"
+                                            android:textColor="@color/colorPrimary"
+                                            android:textSize="@dimen/home_item_txt_size" />
+                                    </LinearLayout>
+                                </RelativeLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:background="@drawable/rectangle_white"
+                        android:elevation="3dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginTop="10dp"
+                        android:weightSum="4">
+
+                        <RelativeLayout
+                            android:id="@+id/rvGallery"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:layout_weight="1">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:background="@drawable/circle"
+                                    android:padding="12dp"
+                                    android:src="@drawable/ic_gallery" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/gallery_name"
+                                    android:layout_marginTop="5dp"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="@dimen/home_item_txt_size" />
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/rvAbout"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:layout_weight="1">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:background="@drawable/circle"
+                                    android:padding="12dp"
+                                    android:src="@drawable/ic_about" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/aboutus_name"
+                                    android:layout_marginTop="5dp"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="@dimen/home_item_txt_size" />
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/rvShareApp"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:layout_weight="1">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:background="@drawable/circle"
+                                    android:padding="12dp"
+                                    android:src="@drawable/ic_share" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/share_app_name"
+                                    android:layout_marginTop="5dp"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="@dimen/home_item_txt_size" />
+                            </LinearLayout>
+
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:id="@+id/rvRateApp"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:layout_weight="1">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:background="@drawable/circle"
+                                    android:padding="12dp"
+                                    android:src="@drawable/ic_rate" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/rate_app_name"
+                                    android:layout_marginTop="5dp"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="@dimen/home_item_txt_size" />
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rvMoreApp"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="5dp"
+
+                        android:background="@drawable/rectangle_white"
+                        android:elevation="3dp">
+
+                        <ImageView
+                            android:id="@+id/im_MoreApp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/circle"
+                            android:padding="12dp"
+                            android:src="@drawable/ic_more" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_margin="10dp"
+                            android:layout_toLeftOf="@+id/imArrow9"
+                            android:layout_toRightOf="@+id/im_MoreApp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:elevation="3dp"
+                                android:text="@string/more_app_name"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="@dimen/home_above" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:elevation="3dp"
+                                android:text="@string/more_app_tag"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="@dimen/home_below_ttxt" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/imArrow9"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="10dp"
+                            android:src="@drawable/ic_arrow" />
+                    </RelativeLayout>
+
+                    <!--Added for Language Tag : Start-->
+                    <RelativeLayout
+                        android:id="@+id/rvChangeLang"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/rectangle_white"
+                        android:elevation="3dp">
+
+                        <ImageView
+                            android:id="@+id/imChangeLang"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="10dp"
+                            android:background="@drawable/circle"
+                            android:padding="12dp"
+                            android:src="@drawable/ic_language_black_24dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_margin="10dp"
+                            android:layout_toLeftOf="@+id/imArrow10"
+                            android:layout_toRightOf="@+id/imChangeLang"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:elevation="3dp"
+                                android:text="@string/change_lang"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="@dimen/home_above" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:elevation="3dp"
+                                android:text="@string/change_your_language"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="@dimen/home_below_ttxt" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/imArrow10"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="10dp"
+                            android:src="@drawable/ic_arrow" />
+                    </RelativeLayout>
+
+                    <!--Added for Language Tag :End-->
+                </LinearLayout>
+
+
+            </RelativeLayout>
+        </ScrollView>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/admob_banner_ad"/>
+
+    </RelativeLayout>
+</layout>

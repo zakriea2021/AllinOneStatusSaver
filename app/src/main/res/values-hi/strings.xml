@@ -1,0 +1,111 @@
+<resources>
+
+
+    <string name="change_lang">भाषा बदलें</string>
+
+
+    <string name="share_txt">इस इमेज को देखे और डाउनलोड करें</string>
+    <string name="share_image_via">फाइल शेयर करें</string>
+    <string name="share_app_message">इस App से सभी वीडयोज़ डाउनलोड करे। अभी डाउनलोड करे। </string>
+
+    <string name="about_content">Version: 1.0\nDeveloped by:-\ndudetechnic@gmail.com</string>
+    <string name="aboutInfo">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="insta_app_name">Instagram</string>
+    <string name="insta_tag"><![CDATA[डाउनलोड Instagram इमेजेस और वीडयोज़]]></string>
+    <string name="whatsapp_app_name">Whatsapp</string>
+    <string name="whatsapp_tag"><![CDATA[सेव Whatsapp स्टेटस इमेजेस और वीडयोज़]]></string>
+    <string name="tiktok_app_name">TikTok</string>
+    <string name="tiktok_tag">डाउनलोड TikTok वीडयोज़</string>
+    <string name="likee_app_name">Likee</string>
+    <string name="likee_tag">डाउनलोड Likee वीडयोज़</string>
+    <string name="facebook_app_name">Facebook</string>
+    <string name="fcebook_tag">डाउनलोड Facebook वीडयोज़</string>
+    <string name="twitter_app_name">Twitter</string>
+    <string name="twitter_tag"><![CDATA[डाउनलोड Twitter इमेजेस और वीडयोज़]]></string>
+    <string name="gallery_name">गैलरी</string>
+    <string name="gallery_tag">आपकी सभी डाउनलोड मीडिया देखें</string>
+    <string name="aboutus_name">हमारे बारे में</string>
+    <string name="aboutus_tag">App के बारे में अधिक जानकारी</string>
+    <string name="share_app_name">शेयर  App</string>
+    <string name="share_app_tag">आपके दोस्तों को App शेयर करें </string>
+    <string name="rate_app_name">रेट App</string>
+    <string name="rate_tag">हमें Play  Store  पर रेटिंग दें</string>
+    <string name="more_app_name">मोर App</string>
+    <string name="more_app_tag">हमारी और App देखें</string>
+
+    <!--About Page-->
+    <string name="version_name">वर्ज़न</string>
+    <string name="version_tag">वर्ज़न 1.0.0</string>
+    <string name="company_name_title">कंपनी</string>
+    <string name="company_tag_name">Technic Dude</string>
+    <string name="email_title">ईमेल </string>
+    <string name="email_tag">dudetechnic@gmail.com</string>
+    <string name="website_title">वेबसाइट </string>
+    <string name="website_tag">https://www.deepcrazyworld.com/</string>
+    <string name="contact_title">कॉन्टेक्ट</string>
+    <string name="contact_tag">+91-9898989898</string>
+    <string name="privacy_title">प्राइवेसी पॉलिसी</string>
+    <string name="privacy_tag">प्राइवेसी पॉलिसी को पढ़े</string>
+    <string name="about_title">अबाउट</string>
+    <string name="second_how_too">2. All in One Status Saver को शेयर करें </string>
+    <string name="fourth_how_too">2. All in One Status Saver को ओपन करें </string>
+    <string name="prv_policy">प्राइवेसी पॉलिसी</string>
+    <string name="opn_fb">1. Facebook ओपन करें</string>
+    <string name="copy_video_link_frm_fb">1. Facebook से वीडियो लिंक कॉपी करें</string>
+    <string name="enter_url">Url एंटर करें</string>
+    <string name="enter_valid_url">वैलिड URL एंटर करें </string>
+
+    <string name="do_u_want_to_dlt">आप डिलीट करना चाहते है?</string>
+    <string name="file_deleted">फाइल डिलीट की गयी |</string>
+    <string name="opn_insta">1. Instagram ओपन करें</string>
+    <string name="cancel">कैंसिल</string>
+    <string name="do_u_want_to_download_media_from_pvt">प्राइवेट अकाउंट से मीडिया डाउनलोड नहीं करना चाहते?</string>
+    <string name="no_net_conn">कोई इंटरनेट कनेक्शन नहीं</string>
+    <string name="downloadin_video">वीडियो डाउनलोड हो रहा है|</string>
+    <string name="download_complete">डाउनलोड कम्पलीट हुआ|</string>
+    <string name="pls_bck_again">बंद करने के लिए वापस बेक बटन दबाये </string>
+    <string name="app_not_available">App मौजूद नहीं|</string>
+    <string name="error_occurred">Error Occurred</string>
+    <string name="open_tiktok">1. TikTok </string>
+    <string name="open_likee">1. Likee ओपन करें</string>
+    <string name="copy_video_link_from_likee">1. Likee से वीडियो कॉपी करें </string>
+    <string name="open_twitter">1. Twitter ओपन करे</string>
+    <string name="no_media_on_tweet">लिंक वैलिड नहीं </string>
+    <string name="images">इमेजेस</string>
+    <string name="videos">वीडयोज़</string>
+    <string name="saved_to">सेव्ड किया गया :</string>
+    <string name="whatsapp_not_installed">Whtasapp मौजूद नहीं|</string>
+    <string name="no_app_installed">App मौजूद नहीं|</string>
+
+
+
+    <string name="english">English</string>
+    <string name="hindi">हिंदी</string>
+    <string name="change_your_language">भाषा बदलें</string>
+    <string name="arabic">العربية</string>
+    <string name="how_to_download">डाउनलोड कैसे करें</string>
+    <string name="or_download_using_copied_link">या फिर कॉपी लिंक से डाउनलोड करें</string>
+
+
+    <string name="whatsapp">Whatsapp</string>
+    <string name="download_from_private_account">प्राइवेट अकाउंट से डाउनलोड करें</string>
+    <string name="paste_link">पेस्ट लिंक</string>
+    <string name="without_watermark">विदाउट वाटरमार्क </string>
+    <string name="with_watermark">विथ वाटरमार्क</string>
+    <string name="download">डाउनलोड</string>
+    <string name="paste">पेस्ट</string>
+    <string name="no_result_found">कोई रिजल्ट नहीं मिला</string>
+    <string name="downloading">डाउनलोड हो रहा है!</string>
+    <string name="getting_downloading_link">डाउनलोड लिंक प्राप्त कर रहा है|</string>
+    <string name="share">शेयर</string>
+    <string name="delete">डिलीट</string>
+    <string name="gallery">गैलरी</string>
+    <string name="download_started">डाउनलोड स्टार्ट किया गया</string>
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+    <string name="view_stories">स्टोरीज देखे और प्राइवेट अकाउंट से डाउनलोड करें</string>
+    <string name="login">लॉगिन</string>
+    <string name="stories">स्टोरीज</string>
+
+
+</resources>

@@ -1,0 +1,147 @@
+<resources>
+
+
+    <string name="tag_line">Download All Status on One Click</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="share_txt">عرض / تحميل هذه الصورة</string>
+    <string name="share_image_via">شارك الملف بواسطة</string>
+    <string name="share_app_message">قم بتحميل جميع الفيديوهات باستخدام هذا التطبيق. التحميل الآن</string>
+
+
+    <!--AdMob Id-->
+       <string name="insta_app_name">Instagram</string>
+    <string name="insta_tag"><![CDATA[ تحميل صور وفيديوهات إنستقرام]]></string>
+    <string name="whatsapp_app_name">Whatsapp</string>
+    <string name="whatsapp_tag"><![CDATA[حفظ صور وفيديوهات حالات واتساب]]></string>
+
+    <string name="tiktok_app_name">TikTok</string>
+    <string name="tiktok_tag">تحميل فيديوهات تيك توك</string>
+    <string name="facebook_app_name">Facebook</string>
+    <string name="fcebook_tag">تحميل فيديوهات فيس بوك</string>
+    <string name="twitter_app_name">Twitter</string>
+    <string name="twitter_tag"><![CDATA[تحميل صور وفيديوهات تويتر]]></string>
+
+    <string name="gallery_name">المعرض</string>
+    <string name="gallery_tag">عرض جميع التحميلات الخاصة بك</string>
+
+    <string name="aboutus_name">عن التطبيق</string>
+    <string name="aboutus_tag">معرفة المزيد عن التطبيق</string>
+    <string name="share_app_name">شارك التطبيق</string>
+    <string name="share_app_tag">مشاركة التطبيق مع الأصدقاء</string>
+    <string name="rate_app_name">رأيك بالتطبيق</string>
+    <string name="rate_tag"> إذا أحببت التطبيق قيمنا. على جوجل بلاي</string>
+    <string name="more_app_name">المزيد من التطبيقات</string>
+    <string name="more_app_tag">عرض تطبيقاتنا الأخري</string>
+
+    <string name="about_content">Version: 1.0\nDeveloped by:-\ndudetechnic@gmail.com</string>
+    <string name="aboutInfo">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+
+
+
+
+    <string name="paste_link">الصق الرابط </string>
+    <string name="download">تحميل</string>
+    <string name="paste">الصق</string>
+    <string name="getting_downloading_link">الحصول على رابط التحميل</string>
+    <string name="download_started">بدء التحميل</string>
+    <string name="how_to_download">كيف يتم التحميل</string>
+    <string name="or_download_using_copied_link">أو التحميل بإستخدام نسخ الرابط</string>
+    <string name="images">الصور</string>
+    <string name="videos">فيديوهات</string>
+    <string name="delete">حذف</string>
+    <string name="share">مشاركة</string>
+    <string name="do_u_want_to_dlt">هل تريد الحذف؟</string>
+    <string name="no">لا</string>
+    <string name="yes">نعم</string>
+    <string name="cancel">إلغاء</string>
+    <string name="downloading">جاري التحميل....</string>
+
+
+    <string name="with_watermark">مع العلامة المائية</string>
+    <string name="without_watermark">بدون علامة مائية</string>
+
+    <string name="enter_valid_url">أدخل رابط صحيح</string>
+    <string name="enter_url">أدخل الرابط</string>
+
+
+
+    <string name="version_name">الإصدار</string>
+    <string name="version_tag">Version 1.0.0</string>
+    <string name="company_name_title">شركة</string>
+    <string name="company_tag_name">Technic Dude</string>
+    <string name="email_title">البريد الإلكتروني</string>
+    <string name="email_tag">dudetechnic@gmail.com</string>
+    <string name="website_title">تابعنا</string>
+    <string name="website_tag">https://www.deepcrazyworld.com/</string>
+    <string name="contact_title">تواصل معنا</string>
+    <string name="contact_tag">+91-9898989898</string>
+
+    <string name="privacy_title">سياسة الخصوصية</string>
+    <string name="privacy_tag">أنقر لقراءة سياسة الخصوصية  </string>
+    <string name="about_title"> عن التطبيق</string>
+    <string name="second_how_too"> مشاركة عن طريق All in one status saver</string>
+    <string name="fourth_how_too">فتح All in one status saver</string>
+
+    <string name="prv_policy">سياسة الخصوصية</string>
+
+    <string name="opn_fb">فتح Facebook</string>
+    <string name="copy_video_link_frm_fb">نسخ الرابط من Facebook</string>
+
+
+
+
+
+    <string name="likee_app_name">Likee</string>
+    <string name="likee_tag">تحميل الفيديو من Likee</string>
+
+
+    <!--About Page-->
+
+    <string name="file_deleted"> تم حذف الملف.</string>
+    <string name="opn_insta">Instagram فتح</string>
+
+    <string name="do_u_want_to_download_media_from_pvt">هل تريد تحميل الوسائط من حساب خاص ؟</string>
+    <string name="no_net_conn">لا يوجد إتصال بالإنترنت</string>
+    <string name="downloadin_video">جارٍ تحميل الفيديو...</string>
+    <string name="download_complete">اكتمل التحميل</string>
+    <string name="pls_bck_again">الرجاء اضغط مرة أخرى للخروج</string>
+    <string name="app_not_available">التطبيق ليس متاحاً.</string>
+    <string name="error_occurred">حدث خطأ ما</string>
+    <string name="open_tiktok">TikTok فتح</string>
+    <string name="open_likee">Likee فتح</string>
+    <string name="copy_video_link_from_likee">Likee نسخ الرابط من </string>
+    <string name="open_twitter">Twitter فتح</string>
+    <string name="no_media_on_tweet">التغريدة لا تحوي وسائط أو ربما الرابط غير صالح</string>
+
+
+    <string name="saved_to">تم الحفظ:</string>
+    <string name="whatsapp_not_installed">Whatsapp ليس مثبتاً</string>
+    <string name="no_app_installed">التطبيق ليس مثبتاً.</string>
+
+
+    <string name="change_lang">تغيير اللغة</string>
+
+    <string name="hindi">हिंदी</string>
+    <string name="english">English</string>
+    <string name="arabic">العربية</string>
+
+
+    <string name="change_your_language">تغيير اللغة</string>
+
+
+    <string name="whatsapp">Whatsapp</string>
+    <string name="download_from_private_account">تحميل من حساب خاص</string>
+
+
+    <string name="gallery">المعرض</string>
+
+    <string name="no_result_found">لا نتائج</string>
+    <string name="view_stories">عرض القصص والتنزيل من الحساب الخاص</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="stories">قصص</string>
+
+
+</resources>
